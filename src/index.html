@@ -8,6 +8,36 @@
 </head>
 
 <body>
-  <script src="index.js" type="module"></script>
+
+  <div class="contenedorPrincipal">
+    <div>
+      <h1>Analizador de texto</h1>
+    </div>
+
+    <ul >
+      <li class="listado" data-testid="word-count">Caracteres:</li>
+      <li class="listado"  data-testis="character-count">Caracter sin espacio:</li>
+      <li class="listado"  data-testid="character-no-spaces-count">Palabras:</li><br>
+      <li class="listado"  data-testid="number-count">Números:</li>
+      <li class="listado"  data-testid="number-sum">Suma números:</li>
+      <li class="listado"  data-testid="word-length-average">Promedio longitud:</li>
+    </ul>
+    
+    
+      <textarea name="user-input"  rows="5" cols="70" ></textarea><br>
+
+
+      <button id="reser-button">Limpiar métricas</button>
+   
+
+
 </body>
+
+<footer class="footer">
+  <div>
+    <p>Autor:Lizeth Martínez</p>
+  </div>
+  <script type="module" src="index.js"></script>
+</footer>
+
 </html>

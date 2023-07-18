@@ -1,0 +1,40 @@
+textarea {
+
+    display: block;
+    margin: auto;
+    border: 0.5px solid #0c9bd8d8;
+    border-radius: 5px;
+
+
+}
+
+.listado {
+
+    display: inline-block;
+    padding: 0.5px;
+    border: 2px solid #ccccccd8;
+    border-radius: 8px;
+
+
+}
+
+button {
+   
+    background-color: rgb(43, 167, 120);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content:  right;
+}
+
